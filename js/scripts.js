@@ -63,8 +63,14 @@ var waves = new SineWaves({
 
 let pathname = window.location.pathname.toLowerCase()
 let reditectItem
+
 try {
-    reditectItem = redirectMap[pathname]
+    if (redirectMap.hasOwnProperty(pathname)) {
+        reditectItem = redirectMap[pathname]
+    }
+    else {
+        reditectItem = redirectMap['/fallback']
+    }
 } catch (err) {
     reditectItem = redirectMap['/fallback']
     console.error(err)
