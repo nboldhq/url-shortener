@@ -61,23 +61,33 @@ var waves = new SineWaves({
     }
 })
 
-let pathname = window.location.pathname.toLowerCase()
-let redirectItem
 
-try {
-    if (redirectMap.hasOwnProperty(pathname)) {
-        redirectItem = redirectMap[pathname]
+$(window).on("load", function () {
+    updateHash()
+})
+$(window).on('hashchange', function () {
+    updateHash()
+})
+
+function updateHash () {
+    let pathname = window.location.hash.toLowerCase()
+    let redirectItem
+
+    try {
+        if (redirectMap.hasOwnProperty(pathname)) {
+            redirectItem = redirectMap[pathname]
+        }
+        else {
+            redirectItem = redirectMap['#fallback']
+        }
+    } catch (err) {
+        redirectItem = redirectMap['#fallback']
+        console.error(err)
     }
-    else {
-        redirectItem = redirectMap['/fallback']
-    }
-} catch (err) {
-    redirectItem = redirectMap['/fallback']
-    console.error(err)
+    $('#redirectUrlLabel').text('Redirecting to ' + redirectItem.label + '...')
+    $('#redirectUrlLink').attr('href', redirectItem.target)
+    setTimeout(() => {
+        window.location.replace(redirectItem.target)
+    }, 500)
 }
-$('#redirectUrlLabel').innerText = redirectItem.label
-$('#redirectUrlLink').href = redirectItem.target
 
-setTimeout(() => {
-    // window.location.replace(redirectItem.target)
-}, 500)

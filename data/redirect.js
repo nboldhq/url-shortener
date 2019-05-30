@@ -1,13 +1,13 @@
 const redirectMap = {
-    "/help": {
+    "#help": {
         "label": "SalesTim Help Center",
         "target": "https://help.salestim.com"
     },
-    "/store": {
+    "#store": {
         "label": "SalesTim Store",
         "target": "https://store.salestim.com"
     },
-    "/fallback": {
+    "#fallback": {
         "label": "SalesTim.com",
         "target": "https://www.salestim.com"
     }
