@@ -43,25 +43,35 @@ var waves = new SineWaves({
     ],
     // Called on window resize
     resizeEvent: function () {
-        var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
-        gradient.addColorStop(0, "rgba(25, 255, 255, 0)");
-        gradient.addColorStop(0.5, "rgba(255, 25, 255, 0.75)");
-        gradient.addColorStop(1, "rgba(255, 255, 25, 0");
+        var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0)
+        gradient.addColorStop(0, "rgba(25, 255, 255, 0)")
+        gradient.addColorStop(0.5, "rgba(255, 25, 255, 0.75)")
+        gradient.addColorStop(1, "rgba(255, 255, 25, 0")
 
-        var index = -1;
-        var length = this.waves.length;
+        var index = -1
+        var length = this.waves.length
         while (++index < length) {
-            this.waves[index].strokeStyle = gradient;
+            this.waves[index].strokeStyle = gradient
         }
 
         // Clean Up
-        index = void 0;
-        length = void 0;
-        gradient = void 0;
+        index = void 0
+        length = void 0
+        gradient = void 0
     }
-});
+})
+
+let pathname = window.location.pathname.toLowerCase()
+let reditectItem
+try {
+    reditectItem = redirectMap[pathname]
+} catch (err) {
+    reditectItem = redirectMap['/fallback']
+    console.error(err)
+}
+$('#redirectUrlLabel').innerText = redirectItem.label
+$('#redirectUrlLink').href = redirectItem.target
 
 setTimeout(() => {
-    window.location.replace("http://www.salestim.com");
-}, 1000);
-
+    // window.location.replace(redirectItem.target)
+}, 500)

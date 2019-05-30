@@ -1,0 +1,5 @@
+{
+  "git.ignoreLimitWarning": true,
+  "javascript.validate.enable": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true
+}
