@@ -86,8 +86,6 @@ function updateHash () {
     }
     $('#redirectUrlLabel').text('Redirecting to ' + redirectItem.label + '...')
     $('#redirectUrlLink').attr('href', redirectItem.target)
-    setTimeout(() => {
-        window.location.replace(redirectItem.target)
-    }, 500)
+    window.location.replace(redirectItem.target)
 }
 
