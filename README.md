@@ -2,7 +2,7 @@
 
 ## Usage
 Create links using the following structure:  
-https://go.salestim.com/#hash
+https://fa-st.co/#hash
 
 ## Configuration
 Update the "redirect.js" file from the "data" folder.
