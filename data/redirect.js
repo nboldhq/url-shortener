@@ -15,7 +15,7 @@ const redirectMap = {
         "label": "SalesTim.com",
         "target": "https://www.salestim.com"
     }
-    "#O365adoptionTeamsyTab1": {
+    "#O365adoptionTeamsTab1": {
         "label": "Template : Adoption Office 365 - Teams - Help Center",
         "target": "https://support.office.com/en-en/teams"
     }
