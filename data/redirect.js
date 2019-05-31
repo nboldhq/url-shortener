@@ -3,6 +3,10 @@ const redirectMap = {
         "label": "SalesTim Help Center",
         "target": "https://help.salestim.com"
     },
+    "#backstage": {
+        "label": "SalesTim Backstage",
+        "target": "https://backstage.salestim.com"
+    },
     "#store": {
         "label": "SalesTim Store",
         "target": "https://store.salestim.com"
