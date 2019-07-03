@@ -7,6 +7,10 @@ const redirectMap = {
         "label": "SalesTim Backstage",
         "target": "https://backstage.salestim.com"
     },
+    "#microsoft-mvp-offer": {
+        "label": "Microsoft MVP Offer",
+        "target": "https://forms.microsoft.com/Pages/ResponsePage.aspx?id=bGF7p6ATdEuqZBnBdtPsARwlY9jB8M5CqPDgn4mJUyNUMk81SkFSNTBQRjBOMlRRNzRaM0NGNTBZUS4u"
+    },
     "#store": {
         "label": "SalesTim Store",
         "target": "https://store.salestim.com"
