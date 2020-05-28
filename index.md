@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>LINKS</h1>
+<h1>Available SalesTim shortcuts</h1>
 
 {% assign redirects = site.pages | where_exp: "item", "item.redirect_to != nil" %}
 {% for page in redirects %}
