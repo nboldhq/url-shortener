@@ -21,7 +21,17 @@ To learn more about SalesTim templates capabilities, including how to create tem
 
 If you want to integrate your contents or applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our ***[Tech Hub](https://developers.salestim.com/)***.
 
-## CONFIGURATION
+## TABLE OF CONTENTS
+
+- **[A. CONFIGURATION](#a-configuration)**
+- **[B. CREATE NEW LINKS](#b-create-new-links)**
+- **[C. TECHNOLOGIES](#c-technologies)**
+- **[X. APPENDICES](#x-appendices)**
+  - COMMUNICATING WITH THE TEAM
+  - SECURITY POLICY
+  - CODE OF CONDUCT
+
+## A. CONFIGURATION
 
 Edit the `_config.yml` file:
 
@@ -51,7 +61,7 @@ Read more about permalinks at https://jekyllrb.com/docs/permalinks/
 It is the `jekyll-redirect-from` plugin that does the redirecting from the *short link* to the *target page*.
 Read more about the plugin at https://github.com/jekyll/jekyll-redirect-from
 
-## USAGE
+## B. CREATE NEW LINKS
 
 Create a new file in the root of the repository.
 
@@ -73,7 +83,7 @@ The `redirect_to` is the URL to the target page. This is the only [front matter]
 
 The file can have a `.md` (Markdown) or `.html` extension, but please use `.md` for consistency.
 
-## TECHNOLOGIES
+## C. TECHNOLOGIES
 
 - Jekyll: https://jekyllrb.com
 - jekyll-theme-minimal: https://github.com/pages-themes/minimal
