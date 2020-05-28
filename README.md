@@ -24,7 +24,7 @@ If you want to integrate your contents or applications with the SalesTim Platfor
 ## TABLE OF CONTENTS
 
 - **[A. CONFIGURATION](#a-configuration)**
-- **[B. CREATE NEW LINKS](#b-create-new-links)**
+- **[B. USAGE](#b-usage)**
 - **[C. TECHNOLOGIES](#c-technologies)**
 - **[X. APPENDICES](#x-appendices)**
   - COMMUNICATING WITH THE TEAM
@@ -61,27 +61,28 @@ Read more about permalinks at https://jekyllrb.com/docs/permalinks/
 It is the `jekyll-redirect-from` plugin that does the redirecting from the *short link* to the *target page*.
 Read more about the plugin at https://github.com/jekyll/jekyll-redirect-from
 
-## B. CREATE NEW LINKS
+## B. USAGE
 
-Create a new file in the root of the repository.
+***How to create a new link?***
 
-This repository has one example, [`techhub.md`](techhub.md):
+Create a new file in the root, such as `<your-keyword>.md`.  
+Include this content in the file:
 
 ```md
 ---
-title: SalesTim Tech Hub
-redirect_to: https://developers.salestim.com
+title: <title>
+redirect_to: <redirect-to>
 ---
 ```
 
-This results in:
-- "Short" link: https://fa-st.co/techhub
-- Target page:  https://developers.salestim.com
+- The `<title>` could be used to describe the target page. Consider to take the *exact* title of the target page.
+- The `<redirect_to>` is the URL to the target page. This is the only [front matter](https://jekyllrb.com/docs/front-matter/) that is mandatory to make the short link work.
 
-The `title` could be used to describe the target page. Consider to take the *exact* title of the target page.
-The `redirect_to` is the URL to the target page. This is the only [front matter](https://jekyllrb.com/docs/front-matter/) that is mandatory to make the short link work.
-
-The file can have a `.md` (Markdown) or `.html` extension, but please use `.md` for consistency.
+Best Practices:
+- Don't forget, your file MUST start AND end with the `"---"` lines.
+- Use only alphanumeric and lower-case characters for keywords.
+- Separate keywords by using the `"-"` character.
+- The file can have a `.md` (Markdown) or `.html` extension, but please use `.md` for consistency.
 
 ## C. TECHNOLOGIES
 
