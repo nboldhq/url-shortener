@@ -68,7 +68,7 @@ Read more about the plugin at https://github.com/jekyll/jekyll-redirect-from
 Create a new file in the root, such as `<your-keyword>.md`.  
 Include this content in the file:
 
-```md
+```markdown
 ---
 title: <title>
 redirect_to: <redirect-to>
@@ -79,6 +79,7 @@ redirect_to: <redirect-to>
 - The `<redirect_to>` is the URL to the target page. This is the only [front matter](https://jekyllrb.com/docs/front-matter/) that is mandatory to make the short link work.
 
 Best Practices:
+- Keywords are **case-sensitives**, but you can create multiple files with the same name but a different case.
 - Don't forget, your file MUST start AND end with the `"---"` lines.
 - Use only alphanumeric and lower-case characters for keywords.
 - Separate keywords by using the `"-"` character.
