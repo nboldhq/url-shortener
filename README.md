@@ -1,3 +1,4 @@
+![classification:PUBLIC](https://img.shields.io/badge/classification-PUBLIC-blue)
 [![license](https://img.shields.io/badge/License-MIT-yellow?style=flat)](/LICENSE.md)
 ![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
 ![GitHub last commit](https://img.shields.io/github/last-commit/salestim/template-manifests)
