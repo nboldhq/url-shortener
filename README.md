@@ -72,14 +72,17 @@ Include this content in the file:
 ---
 title: <title>
 redirect_to: <redirect-to>
+redirect_from:
+  - <alias>
 ---
 ```
 
 - The `<title>` could be used to describe the target page. Consider to take the *exact* title of the target page.
 - The `<redirect_to>` is the URL to the target page. This is the only [front matter](https://jekyllrb.com/docs/front-matter/) that is mandatory to make the short link work.
+- The `<redirect_from>` is a list of aliases to the keyword, preceded by a "`/`" character, for instance `/TechHub`. This [front matter](https://jekyllrb.com/docs/front-matter/) is optional but recommended.
 
 Best Practices:
-- Keywords are **case-sensitives**, but you can create multiple files with the same name but a different case.
+- Keywords by default are **case-sensitives**, but you can include aliases to accept multiple variations for the same keyword, such as `/TechHub`, `/tech-hub`, `/Tech-Hub`...
 - Don't forget, your file MUST start AND end with the `"---"` lines.
 - Use only alphanumeric and lower-case characters for keywords.
 - Separate keywords by using the `"-"` character.
