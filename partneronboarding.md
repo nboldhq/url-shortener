@@ -7,5 +7,3 @@ redirect_from:
   - /partner-onboarding
   - /Partner-Onboarding
 ---
-
-https://fa-st.co/partneronboarding
