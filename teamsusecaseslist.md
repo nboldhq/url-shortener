@@ -8,6 +8,6 @@ redirect_from:
   - /TeamsUseCaseList
   - /teams-use-cases-list
   - /Teams-Use-Cases-List
-   - /teams-use-case-list
+  - /teams-use-case-list
   - /Teams-Use-Case-List
 ---
