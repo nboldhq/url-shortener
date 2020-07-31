@@ -1,6 +1,6 @@
 ---
 title: Product Update #3
-redirect_to: https://salestim.com/
+redirect_to: https://salestim.com/product-update-3/
 redirect_from:
   - /productupdate3
   - /ProductUpdate3
