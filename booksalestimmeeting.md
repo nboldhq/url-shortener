@@ -6,4 +6,8 @@ redirect_from:
   - /BookSalestimMeeting
   - /book-salestim-meeting
   - /Book-Salestim-Meeting
+  - /Discover-Naming-Convention
+  - /Explore-More
+  - /TryNow
+  - /Try-Now
 ---
