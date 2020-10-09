@@ -10,4 +10,6 @@ redirect_from:
   - /Explore-More
   - /TryNow
   - /Try-Now
+  - /trynow
+  - /try-now
 ---
