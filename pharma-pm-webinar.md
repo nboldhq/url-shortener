@@ -1,5 +1,5 @@
 ---
-title: Project managemen webinar - Pharmaceutical industry
+title: Project management webinar - Pharmaceutical industry
 redirect_to: https://app.livestorm.co/salestim/project-management-with-microsoft-teams-the-best-christmas-present-you-can-make-for-your-company
 redirect_from:
   - /pharmapmwebinar
