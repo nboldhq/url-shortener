@@ -1,6 +1,6 @@
 ---
 title: How Microsoft Teams Enhances collaboration for the Construction industry 
-redirect_to: https://www.salestim.com/how-to-use-microsoft-teams-in-business-consulting/
+redirect_to: https://www.salestim.com/microsoft-teams-for-construction/
 redirect_from:
   - /constructionblogmsteams
   - /ConstructionBlogMSTeams
