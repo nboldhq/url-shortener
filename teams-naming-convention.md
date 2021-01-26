@@ -6,6 +6,5 @@ redirect_from:
   - /teamsnamingconvention
   - /Teams-Naming-Convention
   - /TeamsNamingConvention
-  - /TEAMSNAMINGCONVENTION
-  - /TEAMS-NAMING-CONVENTION
 ---
+
