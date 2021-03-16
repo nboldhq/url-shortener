@@ -1,6 +1,6 @@
 ---
 title: SalesTim Webinar Partners
-redirect_to: https://app.livestorm.co/salestim/salestim-product-4-update-for-partners
+redirect_to: https://app.livestorm.co/salestim/salestim-product-update-4-for-partners
 redirect_from:
   - /SalesTimWebinarPartners
   - /salestimwebinarpartners
