@@ -1,14 +1,12 @@
-![classification:PUBLIC](https://img.shields.io/badge/classification-PUBLIC-blue)
-[![license](https://img.shields.io/badge/License-MIT-yellow?style=flat)](/LICENSE.md)
-![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
-![GitHub last commit](https://img.shields.io/github/last-commit/salestim/template-manifests)
+![Classification:PUBLIC](https://img.shields.io/badge/🔖_Classification-PUBLIC-blue)
+[![license](https://img.shields.io/badge/©️_License-CC_BY_4.0-yellow?style=flat)](/LICENSE.md)
+[![](https://img.shields.io/badge/Code_Style-Standard-informational.svg?logo=nodedotjs)](https://standardjs.com)
+[![](https://img.shields.io/badge/semver-2.0.0-informational)](https://semver.org)
 [![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
 [![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
-[![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/salestim/url-shortener)
 
-*"SalesTim URL Shortener" is licensed under a [MIT License](/LICENSE.md).*
-
-# Welcome to the SalesTim URL Shortener repo
+# 👋 Welcome to the SalesTim URL Shortener repo
 
 ## ABSTRACT
 
@@ -21,16 +19,6 @@ View the URL Shortener in action: https://fa-st.co
 To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
 
 If you want to integrate your contents or applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our ***[Tech Hub](https://developers.salestim.com/)***.
-
-## TABLE OF CONTENTS
-
-- **[A. CONFIGURATION](#a-configuration)**
-- **[B. USAGE](#b-usage)**
-- **[C. TECHNOLOGIES](#c-technologies)**
-- **[X. APPENDICES](#x-appendices)**
-  - COMMUNICATING WITH THE TEAM
-  - SECURITY POLICY
-  - CODE OF CONDUCT
 
 ## A. CONFIGURATION
 
@@ -96,22 +84,19 @@ Best Practices:
 - jekyll-redirect-from: https://github.com/jekyll/jekyll-redirect-from
 - GitHub Pages: https://pages.github.com
 
-## X. APPENDICES
+## 📡 Communicating with the team
+The easiest way to communicate with the team is via [GitHub Issues](https://github.com/SalesTim/url-shortener/issues/).
 
-### COMMUNICATING WITH THE TEAM
+Please [file new issues](https://github.com/SalesTim/url-shortener/issues/new/choose), feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
 
-The easiest way to communicate with the team is via [GitHub Issues](/issues).
+## 🛂 Code of Conduct
+See [CODE OF CONDUCT](./CODE_OF_CONDUCT.md).
 
-Please [file new issues](/issues/new/choose), feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
+## 📃 Change Log
+See [CHANGELOG](./CHANGELOG.md).
 
-### SECURITY POLICY
+## 🔐 Security Policy
+See [SECURITY](./SECURITY.md).
 
-This project has adopted the [SalesTim Security Policy](https://developers.salestim.com/platform/securitypolicy.html).
-
-### CODE OF CONDUCT
-
-This project has adopted the [SalesTim Open Source Code of Conduct](https://codeofconduct.salestim.com).
-
-Additional resources:
-- [SalesTim Code of Conduct FAQ](https://codeofconduct.salestim.com/faq/)
-- Contact [codeofconduct@salestim.com](mailto:codeofconduct@salestim.com) with questions or concerns
+## © License
+See [LICENSE](./LICENSE.md).
