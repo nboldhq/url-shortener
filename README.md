@@ -1,12 +1,7 @@
 ![Classification:PUBLIC](https://img.shields.io/badge/🔖_Classification-PUBLIC-blue)
 [![license](https://img.shields.io/badge/©️_License-CC_BY_4.0-yellow?style=flat)](/LICENSE.md)
-[![](https://img.shields.io/badge/Code_Style-Standard-informational.svg?logo=nodedotjs)](https://standardjs.com)
-[![](https://img.shields.io/badge/semver-2.0.0-informational)](https://semver.org)
-[![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
-[![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/salestim/url-shortener)
 
-# 👋 Welcome to the SalesTim URL Shortener repo
+# 👋 Welcome to the nBold URL Shortener repo
 
 ## ABSTRACT
 
@@ -16,17 +11,17 @@ View the URL Shortener in action: https://fa-st.co
 
 > [URL shortening](https://en.wikipedia.org/wiki/URL_shortening) is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page.
 
-To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
+To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Docs Center](https://docs.nbold.co)***.
 
-If you want to integrate your contents or applications with the SalesTim Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our ***[Tech Hub](https://developers.salestim.com/)***.
+If you want to integrate your contents or applications with the nBold Platform API, for instance create template-based teams from Microsoft PowerAutomate, please refer to our ***[API Reference](https://docs.nbold.co/api)***.
 
 ## A. CONFIGURATION
 
 Edit the `_config.yml` file:
 
 ```yaml
-title: SalesTim URL Shortener
-description: ✂️🔗 This repo hosts SalesTim URL Shortener (built with with Jekyll and GitHub Pages).
+title: nBold URL Shortener
+description: ✂️🔗 This repo hosts nBold URL Shortener (built with with Jekyll and GitHub Pages).
 logo: /assets/img/color.png
 show_downloads: false
 google_analytics: UA-XXXXXXX-YY
@@ -85,15 +80,12 @@ Best Practices:
 - GitHub Pages: https://pages.github.com
 
 ## 📡 Communicating with the team
-The easiest way to communicate with the team is via [GitHub Issues](https://github.com/SalesTim/url-shortener/issues/).
+The easiest way to communicate with the team is via [GitHub Issues](https://github.com/nboldhq/url-shortener/issues/).
 
-Please [file new issues](https://github.com/SalesTim/url-shortener/issues/new/choose), feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
+Please [file new issues](https://github.com/nbolhq/url-shortener/issues/new/choose), feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before creating a new issue.**
 
 ## 🛂 Code of Conduct
 See [CODE OF CONDUCT](./CODE_OF_CONDUCT.md).
-
-## 📃 Change Log
-See [CHANGELOG](./CHANGELOG.md).
 
 ## 🔐 Security Policy
 See [SECURITY](./SECURITY.md).
